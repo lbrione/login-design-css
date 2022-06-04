@@ -1,4 +1,3 @@
-# LoginCSS
-Diseño de un login con css
+# Login Design with CSS.
 
-https://jesusbriones2.github.io/LoginCSS/
+* Link: https://jesusbriones2.github.io/LoginCSS/

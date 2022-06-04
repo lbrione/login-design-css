@@ -3,45 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
+	<title>Login with CSS</title>
 
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="estilos.css">
-	<script src="https://kit.fontawesome.com/ad8b63a33f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/main.css">
+	<script src="https://kit.fontawesome.com/21cece7f89.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
+	<img class="wave" src="style/wave.svg">
 
-
-
-<div class="modal"></div>
-	<form class="form-login">
-		
-		<div class="form-login__head">
+	<form class="login">
 			
-			<i class="fas fa-arrow-left form-login__head-exit"></i>
-			<span class="form-login__head-text">Login</span>
-			<i class="fas fa-user form-login__head-iconUser"></i>
-		</div>
-		<div class="form-login__campos">
-			<input type="text" placeholder="Correo" class="form-login__campos-in">
-			<input type="password" placeholder="Contraseña" class="form-login__campos-in">
-		</div>
-		<div class="form-login__btn">
-			<input type="submit" value="Iniciar Sección" class="form-login__btn-Login" form="form-login"></input>
-		</div>
-		<div class="form-login__register">
-			<a href="#" class="form-login__register-link">Registrarse</a>
-			<a href="#" class="form-login__register-link">¿Olvide mi contraseña?</a>
+		<i class="fas fa-arrow-left login__icon-arrow"></i>
+
+		<h1 class="login__title">Welcome</h1>
+		
+		<input type="text" placeholder="Email" class="login__input">
+		<input type="password" placeholder="Password" class="login__input">
+		
+		<div class="login__contBtn">
+			<input type="submit" value="Login" class="login__contBtn-btn"></input>
 		</div>
 
-
+		<a href="#" class="login__links-item">Sing in</a>
+		<a href="#" class="login__links-item">Forget password</a>
 	</form>	
-
-
-	
-
 
 </body>
 </html>
