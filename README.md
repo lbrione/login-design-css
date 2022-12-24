@@ -1,5 +1,5 @@
-# Login Design with CSS.
+# Diseño de Login con css.
 
-* Link: https://jesusbriones2.github.io/login_design_css/
+* https://jesusbriones2.github.io/login-design-css/
 
 ![Page capture](page_capture.png "Page capture")
